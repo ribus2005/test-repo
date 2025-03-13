@@ -1,6 +1,6 @@
-﻿﻿
-#include "candle.h"
+﻿﻿#include "candle.h"
 #include <gtest/gtest.h>
+
 TEST(growing,body_contains){
   Candle riba(300,500,400,600);
   EXPECT_EQ(riba.body_contains(500),1);
