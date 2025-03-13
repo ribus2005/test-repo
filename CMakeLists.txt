@@ -3,7 +3,7 @@ project(riba CXX)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_COMPILER "gcc")
+
 include(FetchContent)
 FetchContent_Declare(
   googletest
