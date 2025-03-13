@@ -110,3 +110,5 @@ TEST(falling,is_red){
   Candle riba(500,400,200,100);
   EXPECT_EQ(riba.is_red(),1);
 }
+
+//guten morgen
