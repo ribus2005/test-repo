@@ -1,6 +1,4 @@
-﻿﻿#include <vector>
-#include <functional>
-#include <iostream>
+﻿﻿
 #include "candle.h"
 #include <gtest/gtest.h>
 TEST(growing,body_contains){
